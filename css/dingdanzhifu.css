@@ -1,0 +1,133 @@
+.dingdanbeijing{
+	width: 7.5rem;
+	height: 13.34rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.head{
+	width:100%;
+	height: 1.3rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+.ming{
+	width: 100%;
+	height: 1.3rem;
+	font-size: 0.4rem;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	top: 0.5rem;
+	
+}
+/*二白*/
+.shangpinshulaing{
+	width: 6.74rem;
+	height: 3.36rem;
+	background-color: white;
+	border-radius: 0.2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid white; /*让边框变为1px宽度，直线，#CCC颜色*/
+	margin-left: 0.38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+/*详细信息*/
+.xiangxixinxi{
+	width: 6.74rem;
+	height: 7.18rem;
+	background-color: white;
+	border-radius: 0.2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid white; /*让边框变为1px宽度，直线，#CCC颜色*/
+	margin-left: 0.38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/*一表*/
+.slk{
+	width: 6.74rem;
+	height: 1.68rem;
+	background-color: white;
+	border-radius: 0.2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid white; 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.foodsp{
+	width: 1.86rem;
+	height: 1.68rem;
+	
+	border-radius: 0.2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid white; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.textsay{
+	width: 4.87rem;
+	height: 1.68rem;
+	
+	border-radius: 0.2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid white; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.bread{
+	width: 1.1rem;
+	height: 1.1rem;
+	margin-left:0.35rem ;
+}
+.zzb{
+	height: 0.8rem;
+	width: 4.8rem;
+	font-size: large;
+	color: black;
+}
+.sanshi{
+	height: 0.8rem;
+	width: 4.8rem;
+	font-size: large;
+	color: black;
+}
+.xl1{
+	width: 6.74rem;
+	height: 0.89rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.xlxx1{
+	width: 6.74rem;
+	height: 0.6rem;
+	color: black;
+	font-size: 0.28rem;
+	margin-left: 7%;
+}
+.xlxx2{
+	width: 6.74rem;
+	height: 0.29rem;
+	color: gray;
+	font-size: 0.24rem;
+	margin-left: 7%;
+}
+.qrddt{
+	width: 2.44rem;
+	height: 0.68rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	border-radius: 2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid white; 
+	color: white;
+	font-size: 0.34rem;
+	text-align: center;
+	margin-left: 30%;
+}

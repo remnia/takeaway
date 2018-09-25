@@ -1,0 +1,141 @@
+.signbanner{
+	width: 100%rem;
+	height: 2.78rem;
+	
+}
+.headicon{
+	width: 1.5rem;
+	height: 1.5rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	border-radius: 50%;
+	z-index:auto;
+	position: fixed;
+	left: 3rem;
+	top: 2.03rem;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	
+}
+.signtitle{
+	width: 100%;
+	height: 2.3rem;
+	/*background: gainsboro;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.stb{
+	width: 100%;
+	height: 20%;
+	background: white;
+}
+.stc{
+	width: 100%;
+	height: 45%;
+	font-size: 0.34rem;
+	color: #4b94ef;
+	padding-top: 0.8rem;
+}
+.ste{
+	width: 100%;
+	height: 35%;
+	font-size: 0.24rem;
+	color: #4b94ef;
+	padding-top: 0.3rem;
+}
+.signlist{
+	width: 5.6rem;
+	height: 5.22rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 0.95rem;
+	border-radius: 0.5rem;
+	border: 1px solid white;
+	/*padding-left: 0.95rem;*/
+	box-shadow:0 0 0.2rem 0;
+}
+.slpoint{
+	width: 1.12rem;
+	height: 1.7rem;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	float: left;
+}
+.sl1{
+	width: 5.6rem;
+	height: 1.7rem;
+	border-radius: 0.5rem;
+}
+.username{
+	width: 3.36rem;
+	height: 1.7rem;
+	outline:none;
+	display: block;
+	background-color: white;
+	border: 0px;
+	font-size: 0.24rem;
+	text-align: center;
+	border-radius: 0.5rem;
+	float: left;
+}
+.resigncode{
+	width: 3.36rem;
+	height: 1.7rem;
+	outline:none;
+	display: block;
+	background-color: white;
+	border: 0px;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.password{
+	width: 3.36rem;
+	height: 1.7rem;
+	outline:none;
+	display: block;
+	background-color: white;
+	border: 0px;
+	font-size: 0.24rem;
+	text-align: center;
+	border-radius: 0.5rem;
+}
+.signbutton{
+	width: 5rem;
+	height: 0.9rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	border-radius: 2rem;
+	margin-left: 1.25rem;
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;	
+}
+.anotherlogin{
+	width: 5rem;
+	height: 0.9rem;
+	
+	
+	margin-left: 1.25rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;	
+}
+.anotherlogin div{
+	width: 33%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}

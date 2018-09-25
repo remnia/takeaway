@@ -1,0 +1,182 @@
+.topmind{
+	width: 7.5rem;
+	height: 2.01rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 0.3rem;
+}
+.tm{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+	float: left;
+	padding-left: 0.3rem;
+}
+.t-title{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+	text-align: center;
+	float: left;
+	font-size: 0.4rem;
+	color: white;
+}
+.payment{
+	width: 7.5rem;
+	height: 1rem;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.paytitle{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 0.24rem;
+	color: gray;
+}
+.paymoney{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: right;
+	font-size: 0.4rem;
+	color: blue;
+	padding-right: 0.4rem;
+}
+.chip{
+	width: 7.5rem;
+	height: 0.58rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.choosepay{
+	width: 7.5rem;
+	height: 1.46rem;
+	
+}
+.alipay{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.ali5a{
+	width: 50%;
+	height: 100%;
+	float: left;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	
+}
+.ali5b{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	font-size: 0.35rem;
+	color: gray;
+	;
+}
+.wechat{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.wec5a{
+	width: 50%;
+	height: 100%;
+	float: left;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 1rem;
+}
+.wei5b{
+	width: 50%;
+	height: 100%;
+	float: left;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+		font-size: 0.35rem;
+	color: gray;
+}
+.jingpingtuijian{
+	width: 2.8rem;
+	height: 0.7rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	margin-top: 0.4rem;
+	border-radius: 0px 1rem 1rem 0px;
+	color: white;
+	font-size: large;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.otherpay{
+	width: 100%;
+	height: 2.8rem;
+	
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 0.5rem;
+}
+.otherpay1{
+	width: 100%;
+	height: 1.4rem;
+	
+}
+.opl{
+	width: 30%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	float: left;
+}
+.opr{
+	width: 70%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	float: left;
+}
+.rb{
+	width: 100%;
+	height: 60%;
+	font-size: 0.34rem;
+	color: gray;
+	padding-top: 5%;
+}
+.rs{
+	width: 100%;
+	height: 40%;
+	font-size: 0.22rem;
+	color: gainsboro;
+}

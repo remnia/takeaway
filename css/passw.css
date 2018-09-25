@@ -1,0 +1,50 @@
+.handpborder{
+	width: 7.5rem;
+	height: 55%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #D8DAE6;
+	opacity: 0.95;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.handpad{
+	width: 7.5rem;
+	height: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.handnumpad{
+	width: 7.5rem;
+	height: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.handnumpad div{
+	width: 32%;
+	height: 98%;
+	border-radius: 0.2rem;
+	background: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.passpoint{
+	width: 7.5rem;
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.passpoint div{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	background: gray;
+	
+}

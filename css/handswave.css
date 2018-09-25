@@ -1,0 +1,64 @@
+.chip div{
+	width: 33%;
+	height: 100%;
+	text-align: center;
+	font-size: 0.24rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.bankcardblock{
+	width: 7.5rem;
+	height: 4.32rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.bankcard{
+	width: 6.45rem;
+	height: 4.25rem;
+	border-radius: 0.5rem;
+	background: #868cfc;
+}
+.bankcard div{
+	width: 100%;
+	height: 33%;
+	border-radius: 0.5rem;
+	color: white;
+	
+}
+.handpborder{
+	width: 7.5rem;
+	height: 55%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #D8DAE6;
+	opacity: 0.95;
+}
+.handpay{
+	width: 7.5rem;
+	height: 75%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.hpword{
+	width: 100%;
+	height: 30%;
+	color:black;
+	
+}
+.hpicon{
+	width: 100%;
+	height: 70%;
+	padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

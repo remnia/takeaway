@@ -1,0 +1,98 @@
+/*底部图标*/
+.footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #FFFFFF;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 0 30px 3px rgba();
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.5rem;
+	box-sizing:border-box;
+}
+.footer .list span{
+	font-size: 0.16rem;
+	display: block;
+	margin-top: 0.1rem;
+}
+.footer a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.footer a i{
+	font-size: 0.4rem;
+	color: #000000;
+	display: block;
+	margin-top: 0.0;
+}
+/*背景*/
+.dingdanbeijing{
+	width: 7.5rem;
+	height: 6.97rem;
+	background: linear-gradient(to right,#275ae9,#4affff);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.xiamianbaibian{
+	width: 7.5rem;
+	height: 6.37rem;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.changanniu{
+	margin-top: 0.25rem;
+	width: 7rem;
+	height: 1rem;
+	color: #2659df;
+	font-size: 0.3rem;
+	margin-left: 0.25rem;
+	padding-left: 0.5rem;
+	padding-top: 0.25rem;
+	text-align: left;
+	border-radius: 0.2rem; /*这句就是重点，让边框变为圆角*/
+	border: 1px solid #2659df;
+}
+/*上边*/
+.sbbj1{
+	width: 100%;
+	height: 1.34rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sbbj2{
+	width: 100%;
+	height: 1.54rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sbbj3{
+	width: 100%;
+	height: 0.92rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 0.4rem;
+	color: white;
+}
+.sbbj4{
+	width: 100%;
+	height: 0.51rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 0.3rem;
+	color: white;
+}
+.renxiang{
+	width: 1.05rem;
+	height: 1.05rem;
+}
