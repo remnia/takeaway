@@ -1,7 +1,7 @@
 .signbanner{
 	width: 100%rem;
 	height: 2.78rem;
-	
+	position: relative;
 }
 .headicon{
 	width: 1.5rem;
@@ -9,8 +9,8 @@
 	background: linear-gradient(to right,#275ae9,#4affff);
 	border-radius: 50%;
 	z-index:auto;
-	position: fixed;
-	left: 3rem;
+	position: absolute;
+	left: 40%;
 	top: 2.03rem;
 		display: flex;
 	flex-direction: column;
